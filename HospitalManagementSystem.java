@@ -5,9 +5,9 @@ import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 public class HospitalManagementSystem extends JFrame {
-    private static final String DB_URL = "jdbc:oracle:thin:@cisvm-oracle.unfcsd.unf.edu:1521:orcl";
-    private static final String DB_USER = "G05";          
-    private static final String DB_PASSWORD = "C3MPwqZ3"; 
+    private static final String DB_URL = "";
+    private static final String DB_USER = "";          
+    private static final String DB_PASSWORD = ""; 
     private Connection connection;
     private JTabbedPane tabbedPane;
     public HospitalManagementSystem() {
@@ -2335,4 +2335,5 @@ public class HospitalManagementSystem extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(HospitalManagementSystem::new);
     }
+
 }
